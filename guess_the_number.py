@@ -2,7 +2,7 @@
 import random
 
 cpu = random.randint(1,100)
-
+counter = 5
 while True:
     guess = int(input("Guess the number : "))
 
@@ -13,3 +13,8 @@ while True:
         print("You have guessed smaller number...")
     elif cpu < guess:
         print("You have guessed larger number...")
+    counter -= 1
+    print("Chances Left :",counter)
+    if counter == 0:
+        print("You lose...Number was",cpu)
+        break
