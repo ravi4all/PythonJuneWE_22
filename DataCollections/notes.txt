@@ -1,0 +1,16 @@
+Data Collections
+- String 
+    - Collection of characters / letters
+    - represented by '...', "...", '''...''', """...."""
+    - strings are immutable (cannot be modified)
+- List
+- Tuples
+- Dictionary
+- Set
+
+
+Strings
+- Indexing / Slicing
+- Methods
+
+Indexing and Slicing both works same for String / List / Tuples
