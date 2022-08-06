@@ -11,6 +11,30 @@ Data Collections
 
 Strings
 - Indexing / Slicing
-- Methods
+- Methods 
+  - lower, upper, title, capitalize, swap
+  - count, index, find, rindex, rfind
+  - isalnum, isalpha, isdigit, islower, isupper...
+  - split, strip, lstrip, rstrip
+  - startswith, endswith, replace
+  - join, encode...
 
 Indexing and Slicing both works same for String / List / Tuples
+
+List
+- collection of any type of data
+- represented by [...]
+
+Indexing / Slicing
+Methods
+
+Iterating over a list
+
+
+Dictionary
+- stores data in key and value pair
+- represented by {key : value, key : value}
+
+Set
+- collection of unordered and unique data
+- represented by {....}
